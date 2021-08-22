@@ -1,0 +1,13 @@
+{
+  "Id": "MyBktPolicy",
+  "Version": "2021-08-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadForGetBucketObjects",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::faccp/*"
+    }
+  ]
+}
